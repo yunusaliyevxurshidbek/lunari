@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "398613761675",
+    "project_id": "lunari-18e8a",
+    "storage_bucket": "lunari-18e8a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:398613761675:android:b833f769d3e36025154e8e",
+        "android_client_info": {
+          "package_name": "com.lunari.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "398613761675-4atnvfqhhso8g7agdpk590fv2ccnsos3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lunari.app",
+            "certificate_hash": "0a686de6bdd5c6614b090a95e52812a18c333bd8"
+          }
+        },
+        {
+          "client_id": "398613761675-td1vj1kn3evgrbie4gm2a64e4h4kg480.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDc3lnIp9mtibL6PaDHGeP4KXoY4p5p6DY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "398613761675-td1vj1kn3evgrbie4gm2a64e4h4kg480.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "398613761675-htnbf8t7p3kplp84cu0akpink0938dfi.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.lunari.app"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:398613761675:android:a4fabb95f3ed712b154e8e",
+        "android_client_info": {
+          "package_name": "com.lunari.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "398613761675-o218fiblosuu9l36gore75gsfo56pbjk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lunari.app",
+            "certificate_hash": "0a686de6bdd5c6614b090a95e52812a18c333bd8"
+          }
+        },
+        {
+          "client_id": "398613761675-td1vj1kn3evgrbie4gm2a64e4h4kg480.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDc3lnIp9mtibL6PaDHGeP4KXoY4p5p6DY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "398613761675-td1vj1kn3evgrbie4gm2a64e4h4kg480.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "398613761675-htnbf8t7p3kplp84cu0akpink0938dfi.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.lunari.app"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

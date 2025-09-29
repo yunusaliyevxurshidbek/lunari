@@ -1,0 +1,201 @@
+name: lunari
+description: "A new Flutter project."
+
+# Prevent accidental publishing to pub.dev.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+
+
+  cupertino_icons: ^1.0.0
+
+  # custom icons:
+  google_fonts: ^6.2.1
+  loading_animation_widget: ^1.3.0
+
+
+  # navigation:
+  go_router: ^14.2.8
+
+  # optimize_UI:
+  flutter_screenutil: ^5.9.3
+  flutter_svg: ^2.0.10+1
+  smooth_page_indicator: ^1.2.0+3
+  percent_indicator: ^4.2.3
+  share_plus: ^11.0.0
+  shimmer: ^3.0.0
+  month_picker_dialog: ^6.0.3
+
+
+
+  # Input_fields:
+  flutter_otp_text_field: ^1.2.0
+  bottom_picker: ^2.10.1
+  flutter_ruler_picker: ^1.0.6
+  vertical_weight_slider: ^2.6.0
+
+  # localization:
+  easy_localization: ^3.0.0
+
+  # State management:
+  flutter_bloc: ^8.1.6
+  equatable: ^2.0.7
+  provider: ^6.1.2
+  hydrated_bloc: ^9.1.5
+  path_provider: ^2.1.5
+
+
+  # localstorage:
+  shared_preferences: ^2.3.3
+  flutter_secure_storage: ^9.2.4
+
+  # splash_view:
+  flutter_native_splash: ^2.4.0
+
+  # chart & diagramms:
+  fl_chart: ^0.70.2
+  syncfusion_flutter_gauges: ^28.2.4
+
+  # confetti:
+  confetti: ^0.8.0
+
+  # firebase:
+  firebase_core: ^3.12.0
+  cloud_firestore: ^5.6.4
+  firebase_auth: ^5.5.0
+  firebase_storage: ^12.4.8
+
+  # social_auth:
+  google_sign_in: ^6.2.2
+  flutter_facebook_auth: ^6.0.2
+  sign_in_with_apple: ^6.1.4
+  twitter_login: ^4.4.2
+
+
+
+  # services:
+  logger: ^2.5.0
+
+
+  # reminder:
+  flutter_local_notifications: ^18.0.1
+  flutter_timezone: ^4.1.0
+  timezone: ^0.10.0
+
+  # audio:
+  audioplayers: ^6.2.0
+
+  # date_formatter:
+  intl: ^0.20.2
+
+  image_picker: ^1.1.2
+
+
+
+
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+flutter_native_splash:
+  color: "#FF699C"
+  image: assets/images/logo.png
+  android_12:
+    color: "#FF699C"
+    image: assets/images/logo.png 
+
+flutter:
+  uses-material-design: true
+
+  # Enable generation of localized Strings from arb files.
+  generate: true
+
+  assets:
+    # Add assets from the images directory to the application.
+    - assets/images/
+    - assets/icons/
+    - assets/lang/
+    - assets/fonts/
+    - assets/ringtones/
+    - assets/animations/
+    - assets/flags/
+
+
+
+    - assets/lang/ar.json
+    - assets/lang/bn.json
+    - assets/lang/de.json
+    - assets/lang/en.json
+    - assets/lang/fr.json
+    - assets/lang/hi.json
+    - assets/lang/ja.json
+    - assets/lang/pt.json
+    - assets/lang/ru.json
+    - assets/lang/ur.json
+    - assets/lang/uz.json
+    - assets/lang/zh.json
+    - assets/lang/spa.json
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Thin.ttf
+          weight: 100
+        - asset: assets/fonts/Poppins-ThinItalic.ttf
+          weight: 100
+          style: italic
+        - asset: assets/fonts/Poppins-ExtraLight.ttf
+          weight: 200
+        - asset: assets/fonts/Poppins-ExtraLightItalic.ttf
+          weight: 200
+          style: italic
+        - asset: assets/fonts/Poppins-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Poppins-LightItalic.ttf
+          weight: 300
+          style: italic
+        - asset: assets/fonts/Poppins-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Poppins-Italic.ttf
+          weight: 400
+          style: italic
+        - asset: assets/fonts/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins-MediumItalic.ttf
+          weight: 500
+          style: italic
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins-SemiBoldItalic.ttf
+          weight: 600
+          style: italic
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Poppins-BoldItalic.ttf
+          weight: 700
+          style: italic
+        - asset: assets/fonts/Poppins-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/Poppins-ExtraBoldItalic.ttf
+          weight: 800
+          style: italic
+        - asset: assets/fonts/Poppins-Black.ttf
+          weight: 900
+        - asset: assets/fonts/Poppins-BlackItalic.ttf
+          weight: 900
+          style: italic
