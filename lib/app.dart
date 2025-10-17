@@ -93,7 +93,7 @@ class MyApp extends StatelessWidget {
             builder: (context) {
               return BlocBuilder<ThemeCubit, ThemeMode>(
                 buildWhen: (previous, current) => previous != current,
-                builder: (context, themeMode) {
+                builder: (context, _) {
                   return MaterialApp.router(
                     restorationScopeId: 'app',
                     localizationsDelegates: context.localizationDelegates,
@@ -103,8 +103,9 @@ class MyApp extends StatelessWidget {
                     onGenerateTitle: (BuildContext context) => 'appTitle'.tr(),
                     routerConfig: router,
                     theme: AppTheme.light,
-                    darkTheme: AppTheme.dark,
-                    themeMode: themeMode,
+                    // Force light mode across the entire app regardless of system/user preference.
+                    // Removing darkTheme and overriding themeMode prevents dark colors from being applied.
+                    themeMode: ThemeMode.light,
                   );
                 },
               );
